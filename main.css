@@ -1,0 +1,350 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.first-div {
+  text-align: center;
+}
+
+.articles {
+  color: #016b6c;
+  font-size: 30px;
+}
+
+.caption-of-articles {
+  color: #636363;
+  font-size: 18px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+}
+
+.c1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.david-pic {
+  flex: 1;
+  max-width: 400px;
+  height: 500px;
+  background-image: url("https://up.maralhost.com/imagef-db854edfcc7c1-jpg.html");
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  filter: grayscale(90%);
+  padding-right: 2rem;
+  padding-top: 15rem;
+}
+
+.david-talk {
+  text-align: right;
+  color: white;
+  font-size: 30px;
+}
+
+.hosting {
+  flex: 2;
+  max-width: 560px;
+  height: 500px;
+}
+
+@media screen and (max-width: 850px) {
+  .david-pic,
+  .hosting {
+    flex: 0 0 100%;
+  }
+}
+
+.top-hosting-pic {
+  width: 100%;
+  height: 250px;
+}
+
+.caption-of-top-host {
+  text-align: right;
+  height: 17rem;
+}
+
+.caption-of-top-host h2 {
+  color: #5d5d5d;
+  font-size: 30px;
+}
+
+.caption-of-top-host p {
+  color: #707070;
+  font-size: 27px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  background-color: #f8f8f8;
+  margin-top: 100px;
+}
+
+.writer {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.information-of-post {
+  text-align: right;
+  margin-right: 19px;
+}
+
+.c2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.r1-c2 {
+  width: 59%;
+}
+
+@media screen and (max-width: 850px) {
+  .r1-c2 {
+    width: 100%;
+  }
+}
+
+.c2-img1 {
+  width: 600px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .c2-img1 {
+    width: 100%;
+    height: 150px;
+    margin-top: 350px;
+  }
+}
+
+.caption-1-c2 {
+  text-align: right;
+}
+
+.caption-1-c2 {
+  text-align: right;
+  height: 17rem;
+}
+
+.caption-1-c2 h2 {
+  color: #5d5d5d;
+  font-size: 30px;
+}
+
+.caption-1-c2 p {
+  color: #707070;
+  font-size: 27px;
+}
+
+.r2-c2 {
+  width: 41%;
+}
+
+@media screen and (max-width: 850px) {
+  .r2-c2 {
+    width: 100%;
+  }
+}
+
+.img-1-r2-c2 {
+  width: 30%;
+}
+
+.c2-img2 {
+  width: 410px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .c2-img2 {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+}
+
+.c3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c3-r1 {
+  width: 35%;
+}
+
+@media screen and (max-width: 850px) {
+  .c3-r1 {
+    width: 100%;
+  }
+}
+
+.c3-img1 {
+  width: 100%;
+  height: 300px;
+}
+
+@media screen and (max-width: 850px) {
+  .c3-img1 {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+  }
+}
+
+.contact-us {
+  width: 15%;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-us {
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+
+.telegram {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 850px) {
+  .telegram {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.telegram div {
+  text-align: center;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 850px) {
+  .telegram div {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+.tel-img {
+  background-color: #5ebae8;
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .tel-img {
+    width: 90%;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .tel {
+    margin-top: 50px;
+  }
+}
+
+.instagram {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 850px) {
+  .instagram {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.instagram div {
+  text-align: center;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 850px) {
+  .instagram div {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+.insta-img {
+  background-image: linear-gradient(to bottom, #fd7267, #f7638d);
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .insta {
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .insta-img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .insta {
+    margin-top: 50px;
+  }
+}
+
+.c3-r3 {
+  width: 45%;
+  height: 100px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .c3-r3 {
+    width: 100%;
+  }
+}
+
+.info-c3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  background-color: #f8f8f8;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  .info {
+    margin-top: 190px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .info-c3 {
+    margin-top: 200px;
+  }
+}
