@@ -36,7 +36,7 @@
 .david-pic {
   max-width: 400px;
   height: 740px;
-  background-image: url("./image/img-1.jpg");
+  background-image: url("https://raw.githubusercontent.com/ali-vrd/simple-blog-page/main/image/img-1.jpg");
   background-repeat: no-repeat;
   border-radius: 30px;
   filter: grayscale(90%);
@@ -160,7 +160,7 @@
 @media screen and (max-width: 990px) {
   .c2-img1 {
     margin-top: 300px;
-    width: 330px;
+    width: 100%;
   }
 }
 
@@ -180,7 +180,8 @@
 
 @media screen and (max-width: 990px) {
   .c2-img2 {
-    width: 330px;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -192,7 +193,7 @@
 
 @media screen and (max-width: 990px) {
   .caption-1-c2 {
-    width: 330px;
+    width: 100%;
   }
 }
 
@@ -204,7 +205,7 @@
 
 @media screen and (max-width: 990px) {
   .caption-2-c2 {
-    width: 330px;
+    width: 100%;
   }
 }
 
@@ -224,7 +225,7 @@
 
 @media screen and (max-width: 990px) {
   .info-c2 {
-    width: 330px;
+    width: 100%;
     margin-top: 100px;
   }
 }
@@ -247,6 +248,12 @@
   }
 }
 
+@media screen and (max-width: 990px) {
+  .c3-r1 {
+    width: 100%;
+  }
+}
+
 .c3-img1 {
   width: 380px;
   height: 380px;
@@ -254,7 +261,7 @@
 
 @media screen and (max-width: 990px) {
   .c3-img1 {
-    width: 330px;
+    width: 100%;
   }
 }
 
@@ -265,7 +272,7 @@
 
 @media screen and (max-width: 990px) {
   .caption-1-c3 {
-    width: 330px;
+    width: 100%;
   }
 }
 
@@ -276,12 +283,6 @@
   background-color: #f8f8f8;
   margin-top: 20px;
   margin-right: 10px;
-}
-
-@media screen and (max-width: 990px) {
-  .caption-1-c3 {
-    width: 330px;
-  }
 }
 
 .info-1c3 img {
